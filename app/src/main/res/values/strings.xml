@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Task</string>
+    <string name="welcome_to_my_task">Welcome to my Task</string>
+    <string name="menu">menu</string>
+    <string name="feeds">Feeds</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_post"> Create Post</string>
+    <string name="write_a_post_here">Write a post here</string>
+
+    <string name="image1">Image</string>
+    <string name="image2">Video</string>
+    <string name="image3">Music</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+
+    <string name="school_name">School Name</string>
+    <string name="post">Post</string>
+    <string name="activity_type">Activity Type</string>
+
+    <string name="cultural">Cultural</string>
+    <string name="sport">Sport</string>
+    <string name="academics">Academics</string>
+    <string name="schoolname">SchoolName</string>
+    <string name="with">with</string>
+    <string name="jeevan_kumar">Jeevan Kumar</string>
+    <string name="activity">Activity</string>
+    <string name="date">date</string>
+    <string name="all_post">All Post</string>
+    <string name="campusname">CampusName</string>
+
+    <string-array name="activity_type">
+        <item>Activity Type</item>
+        <item>Cultural</item>
+        <item>Event</item>
+        <item>Sport</item>
+        <item>Academics</item>
+    </string-array>
+
+    <string-array name="popup">
+        <item> </item>
+        <item>Edit</item>
+        <item>Delete</item>
+
+    </string-array>
+</resources>

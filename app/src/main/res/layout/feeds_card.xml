@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    app:cardMaxElevation="8dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    android:layout_marginLeft="5dp"
+    android:layout_marginStart="5dp">
+
+    <RelativeLayout
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profile_picture"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/profile"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/campusName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/campusname" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="158dp"
+            android:layout_marginRight="158dp"
+            android:text="@string/with" />
+
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="61dp"
+            android:layout_marginRight="61dp"
+            android:text="@string/jeevan_kumar" />
+
+        <TextView
+            android:id="@+id/activityType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/campusName"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="58dp"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/activity" />
+
+        <TextView
+            android:id="@+id/date_of_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/campusName"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="131dp"
+            android:layout_marginLeft="131dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/date" />
+
+        <Spinner
+            android:id="@+id/popupMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:entries="@array/popup"
+            android:background="@drawable/popup" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/aboutPost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/details"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/paragraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:maxLines="5"
+            android:gravity="start|top"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor" />
+
+        <ImageView
+            android:id="@+id/imagePost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:src="@drawable/image2"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+<!--    android:layout_marginTop="20dp"-->
+<!--    android:layout_marginStart="5dp"-->
+<!--    android:layout_marginEnd="5dp"-->
